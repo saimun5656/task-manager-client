@@ -1,0 +1,16 @@
+/* Styling for Webkit-based browsers (Chrome, Safari) */
+.task-list::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+    height: 8px;
+  }
+  
+  .task-list::-webkit-scrollbar-thumb {
+    background-color: rgba(24, 131, 239, 0.846); /* Set the color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+  /* Styling for Firefox */
+  .task-list {
+    scrollbar-color: rgba(11, 137, 215, 0.866) transparent; /* Set the color of the thumb and track */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+  }
